@@ -1,0 +1,22 @@
+.card-list{
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% + 20px);
+  padding: 0;
+  margin: -10px;
+}
+
+.card{
+  width: calc(33.33% - 20px);
+  margin: 10px;
+}
+
+.card > .row{
+  height: 100%;
+}
+
+.card-img-top{
+  background-size: cover;
+  background-position: center;
+  min-height: 200px;
+}
